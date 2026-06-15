@@ -14,8 +14,8 @@ import {
 
 // Premium Curated Images for Continuity
 const aboutImages = {
-  artisanWork: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80", // Premium Bridal Work
-  masterArtisan: "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80" // Fallback fallback if local image fails
+  artisanWork: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80", 
+  masterArtisan: "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80" 
 };
 
 function AboutUs() {
@@ -85,7 +85,7 @@ function AboutUs() {
       <Box sx={{ position: "relative", zIndex: 1, width: "100%", maxWidth: "1240px" }}>
         <Grid container spacing={{ xs: 6, md: 8 }} alignItems="center">
 
-             {/* 🔴 ADD THIS BLOCK HERE (NEW ABOUT TITLE) */}
+             
   <Box sx={{ textAlign: "center", width: "100%", mb: 6 }}>
     <Typography sx={{ color: "#ffca43", letterSpacing: "0.2em", fontSize:{xs:"12px",md:"30px"}  }}>
       ABOUT US
@@ -250,7 +250,6 @@ function AboutUs() {
                   position: "relative",
                   width: "100%",
                   maxWidth: "380px",
-                  aspectRatio: "3 / 4",
                   borderRadius: "30px",
                   padding: "12px",
                   background: "rgba(0, 0, 0, 0.4)",

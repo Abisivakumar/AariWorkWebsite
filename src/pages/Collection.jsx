@@ -176,7 +176,6 @@ function Collection() {
           sx={{ 
             width: "180px", 
             height: "12px", 
-            backgroundImage: "url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 10\"><path d=\"M0 5 Q 25 0, 50 5 T 100 5\" fill=\"none\" stroke=\"%23deaa4d\" stroke-width=\"1\"/></svg>')",
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
             opacity: 0.6

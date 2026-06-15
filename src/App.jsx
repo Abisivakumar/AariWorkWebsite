@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import Collection from "./pages/Collection";
 import AariClass from "./pages/AariClass";
-import Contect from "./pages/Contect";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/collection" element={<Collection />} />
           <Route path="/AariClass" element={<AariClass />} />
-          <Route path="/Contect" element={<Contect />} />
+          <Route path="/Contact" element={<Contact />} />
           {/* add more pages */}
           
         </Route>

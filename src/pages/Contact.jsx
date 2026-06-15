@@ -4,19 +4,19 @@ import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 
-// உங்களுடைய லோக்கல் இமேஜ் பாத் (public/images/contact-bg.jpg போன்ற பாத் கொடுக்கலாம்)
-const bgImageUrl = "public/42ccfc2b-30a5-4eb1-888e-22aeab05b957.jpg"; 
 
-function Contect() {
+
+
+function Contact() {
   return (
     <Box
       id="contact-section"
       sx={{
         position: "relative",
-        backgroundImage: `url(${bgImageUrl})`,
+        backgroundImage: `url('public/42ccfc2b-30a5-4eb1-888e-22aeab05b957.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        backgroundAttachment: "fixed", // ஸ்க்ரோல் செய்யும்போது சினிமாட்டிக் லுக் தரும்
+        backgroundAttachment: "fixed",
         py: 12,
         display: "flex",
         alignItems: "center",
@@ -36,19 +36,19 @@ function Contect() {
     >
       <Container maxWidth="md" sx={{ position: "relative", zIndex: 2 }}>
         
-        {/* கிளாஸ்மார்பிசம் பிளர் பாக்ஸ் (Glassmorphism Blur Container) */}
+      
         <Box
           sx={{
-            background: "rgba(17, 1, 1, 0.03)", // மிக மெல்லிய வெள்ளை நிறம்
-            backdropFilter: "blur(16px)", // பின்னணி இமேஜை பிளர் செய்யும் மேஜிக்
+            background: "rgba(17, 1, 1, 0.03)", 
+            backdropFilter: "blur(16px)", 
             WebkitBackdropFilter: "blur(16px)",
-            border: "1px solid rgba(255, 202, 67, 0.2)", // லேசான தங்க நிற பார்டர்
+            border: "1px solid rgba(255, 202, 67, 0.2)", 
             borderRadius: "24px",
             p: { xs: 4, md: 6 },
             boxShadow: "0 20px 50px rgba(0, 0, 0, 0.4)",
           }}
         >
-          {/* தலைப்பு */}
+         
           <Box sx={{ textAlign: "center", mb: 5 }}>
             <Typography
               variant="h4"
@@ -70,7 +70,7 @@ function Contect() {
           </Box>
 
           <Grid container spacing={4}>
-            {/* இடது பக்கம்: தொடர்பு விவரங்கள் */}
+           
             <Grid item xs={12} md={5}>
               <Box sx={{ display: "flex", flexDirection: "column", gap: 3, height: "100%", justifyContent: "center" }}>
                 
@@ -109,7 +109,7 @@ function Contect() {
               </Box>
             </Grid>
 
-            {/* வலது பக்கம்: மெசேஜ் அனுப்பும் ஃபார்ம் */}
+            
             <Grid item xs={12} md={7}>
               <Box component="form" sx={{ display: "flex", flexDirection: "column", gap: 2.5 }}>
                 
@@ -158,4 +158,4 @@ function Contect() {
   );
 }
 
-export default Contect;
+export default Contact;

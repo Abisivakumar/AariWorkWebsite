@@ -21,8 +21,8 @@ const navItems = [
   { label: "HOME", path: "/" },
   { label: "ABOUT US", path: "/AboutUs" },
   { label: "COLLECTION", path: "/Collection" },
-  { label: "AAri Class", path: "/AariClass" },
-  { label: "CONTECT", path: "/Contect" }
+  { label: "AAri CLASS", path: "/AariClass" },
+  { label: "CONTACT", path: "/Contact" }
 ];
 
 function Nav() {

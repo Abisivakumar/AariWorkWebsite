@@ -94,11 +94,11 @@ function Home() {
       <Box sx={{ position: "relative", zIndex: 1, width: "100%", maxWidth: "1240px" }}>
         <Grid container spacing={{ xs: 6, md: 8 }} alignItems="center">
           
-          {/* LEFT SIDE CONTENT - ANIMATED ENGLISH COPY */}
+          {/* LEFT SIDE CONTENT  */}
           <Grid size={{ xs: 12, md: 6.5 }}>
             <Stack spacing={3.5}>
               
-              {/* Premium Badge */}
+             
               <Box 
                 sx={{ 
                   display: "flex", 
@@ -112,7 +112,7 @@ function Home() {
                     fontSize: "13px",
                     letterSpacing: "0.18em",
                     textTransform: "uppercase",
-                    color: "#310303", // High contrast vivid gold
+                    color: "#310303", 
                     fontWeight: 700,
                     display: "inline-flex",
                     alignItems: "center",
