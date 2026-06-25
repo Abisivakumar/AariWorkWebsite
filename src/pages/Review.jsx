@@ -35,20 +35,21 @@ function Review() {
       {/* HEADER SECTION */}
       <Stack spacing={1} sx={{ mb: 8, textAlign: "center", alignItems: "center" }}>
         <Typography 
-          sx={{ color: "#ffca43", letterSpacing: "3px", fontSize: "11px", fontWeight: 700 }}
+          sx={{ color: "#deaa4d", letterSpacing: "3px", fontSize: "18px", fontWeight: 700 }}
         >
           TESTIMONIALS
         </Typography>
         <Typography 
           variant="h4" 
           sx={{ 
-            fontFamily: "'Playfair Display', serif", 
+           fontFamily: "'Playfair Display', serif",
             fontSize: { xs: "26px", md: "38px" }, 
             fontWeight: 800,
-            color: "#fff"
+            color: "#fff",
+            wordSpacing:"5px"
           }}
         >
-          Love From Our Royal Brides
+          LOVE FROM OUR ROYAL BRIDES
         </Typography>
         <Box sx={{ width: "60px", height: "2px", backgroundColor: "#ffca43", mt: 1 }} />
       </Stack>

@@ -111,7 +111,7 @@ function Footer() {
                     filter: "drop-shadow(0px 1px 2px rgba(0,0,0,0.4))"
                   }}
                 >
-                  RA
+                  YA
                 </Typography>
               </Box>
 
@@ -129,7 +129,7 @@ function Footer() {
                   WebkitTextFillColor: "transparent"
                 }}
               >
-                Royal Aari
+                YAZHINI BOUTIQUE
               </Typography>
             </Box>
             

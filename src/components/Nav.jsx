@@ -15,7 +15,7 @@ import {
   Container
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import LocalFloristIcon from "@mui/icons-material/LocalFlorist"; // மலர் இதழ்களுக்கான ஐகான்
+import LocalFloristIcon from "@mui/icons-material/LocalFlorist";
 
 const navItems = [
   { label: "HOME", path: "/" },
@@ -45,7 +45,7 @@ function Nav() {
       }}
     >
       {/* =========================================================
-          MOBILE DRAWER LOGO (மலர் வளைய வடிவம்)
+          MOBILE DRAWER LOGO (FITTED TO ROYAL AARI PERMANENTLY)
           ========================================================= */}
       <Box 
         onClick={() => {
@@ -67,11 +67,10 @@ function Nav() {
             </Box>
           ))}
           <Typography sx={{ fontFamily: "'Playfair Display', serif", fontSize: "11px", fontWeight: 800, position: "absolute", zIndex: 2, background: "linear-gradient(135deg, #BF953F, #FCF6BA, #AA771C)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-            RA
+            YA
           </Typography>
         </Box>
         
-        {/* MOBILE DRAWER GOLDEN BRAND NAME */}
         <Typography 
           sx={{ 
             fontWeight: 800, 
@@ -84,7 +83,7 @@ function Nav() {
             WebkitTextFillColor: "transparent"
           }}
         >
-          ROYAL AARI
+          YAZHINI BOUTIQUE
         </Typography>
       </Box>
 
@@ -139,13 +138,12 @@ function Nav() {
                 alignItems: "center", 
                 gap: 1.5,
                 cursor: "pointer",
-                "&:hover .nav-flower": {
+                "&:hover .desktop-nav-flower": {
                   transform: "scale(1.1) rotate(45deg)",
                   filter: "drop-shadow(0px 0px 8px rgba(252, 246, 186, 0.6))"
                 }
               }}
             >
-              {/* Miniature Floral Wreath Ring */}
               <Box
                 sx={{
                   position: "relative",
@@ -164,11 +162,10 @@ function Nav() {
                   }
                 }}
               >
-                {/* 8 மலர் இதழ்கள் */}
                 {[0, 45, 90, 135, 180, 225, 270, 315].map((deg, index) => (
                   <Box
                     key={index}
-                    className="nav-flower"
+                    className="desktop-nav-flower"
                     sx={{
                       position: "absolute",
                       transform: `rotate(${deg}deg) translateY(-18px)`,
@@ -189,7 +186,6 @@ function Nav() {
                   </Box>
                 ))}
 
-                {/* சென்டரில் இருக்கும் 'RA' */}
                 <Typography
                   sx={{
                     fontFamily: "'Playfair Display', serif",
@@ -203,11 +199,10 @@ function Nav() {
                     WebkitTextFillColor: "transparent",
                   }}
                 >
-                  RA
+                  YA
                 </Typography>
               </Box>
 
-              {/* DESKTOP GOLDEN BRAND NAME */}
               <Typography
                 sx={{
                   fontWeight: 800,
@@ -220,7 +215,7 @@ function Nav() {
                   WebkitTextFillColor: "transparent"
                 }}
               >
-                Royal Aari
+                YAZHINI BOUTIQUE
               </Typography>
             </Box>
 

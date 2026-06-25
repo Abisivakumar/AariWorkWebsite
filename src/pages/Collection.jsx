@@ -170,8 +170,9 @@ function Collection() {
             color: "#fff"
           }}
         >
-          THE ROYAL AARI LEGACY
+          THE YAZHINI BOUTIQUE LEGACY
         </Typography>
+        
         <Box 
           sx={{ 
             width: "180px", 
@@ -181,6 +182,7 @@ function Collection() {
             opacity: 0.6
           }} 
         />
+        
       </Stack>
 
       {/* CENTERED CATEGORY TABS SWITCHER */}

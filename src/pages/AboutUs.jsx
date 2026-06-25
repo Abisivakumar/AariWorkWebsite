@@ -23,6 +23,13 @@ function AboutUs() {
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
   return (
+    <>
+    <style>
+      {`
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Pinyon+Script&family=Poppins:wght@300;400;600;700&display=swap');
+      `}
+    </style>
+   
     <Box
       component="section"
       sx={{
@@ -91,8 +98,8 @@ function AboutUs() {
       ABOUT US
     </Typography>
 
-    <Typography variant="h3" sx={{ fontWeight: 500, color: "#fff" }}>
-      The Story Behind Royal Aari Boutique
+    <Typography variant="h4" sx={{ fontWeight: 500, color: "#fff",fontFamily: "'Playfair Display', serif",  }}>
+      THE STORY BEHIND YAZHINI AARI BOUTIQUE
     </Typography>
 
     <Typography sx={{ color: "#ccc", mt: 1 }}>
@@ -119,7 +126,8 @@ function AboutUs() {
                     textTransform: "uppercase",
                     color: "#ffca43", // High contrast vivid gold
                     fontWeight: 700,
-                    textShadow: "0px 2px 4px rgba(0,0,0,0.8)"
+                    textShadow: "0px 2px 4px rgba(0,0,0,0.8)",
+                    
                   }}
                 >
                   ✨ Our Craft, Your Legacy
@@ -136,7 +144,6 @@ function AboutUs() {
                   fontWeight: 800,
                   textTransform: "capitalize",
                   color: "#ffffff",
-                  textShadow: "2px 4px 15px rgba(0, 0, 0, 0.95)",
                   fontFamily: "'Playfair Display', 'Didot', 'Georgia', serif",
                   animation: "aboutFadeInUp 0.8s ease-out forwards",
                   animationDelay: "0.1s",
@@ -144,7 +151,7 @@ function AboutUs() {
                 }}
               >
                 Preserving The Royal Art Of <br />
-                <Box component="span" sx={{ color: "#ffca43", textDecoration: "underline", decorationColor: "rgba(255,202,67,0.5)" }}>
+                <Box component="span" sx={{ color: "#d4a11e", textDecoration: "underline", decorationColor: "rgba(255,202,67,0.5)" , fontFamily: "'Playfair Display', serif",}}>
                   Handcrafted
                 </Box> Traditions
               </Typography>
@@ -164,7 +171,7 @@ function AboutUs() {
                   opacity: 0
                 }}
               >
-                Every bridal blouse we create is a canvas of heritage. At Royal Aari, we bring together generations of master artisans specializing in intricate Zardosi, heavy Cutwork, and shimmering stone detailing. We don’t just customize fits; we stitch pure dedication into your dream attire.
+                Every bridal blouse we create is a canvas of heritage. At Yazhini Boutique, we bring together generations of master artisans specializing in intricate Zardosi, heavy Cutwork, and shimmering stone detailing. We don’t just customize fits; we stitch pure dedication into your dream attire.
               </Typography>
 
               {/* Highlight Cards - Core Pillars */}
@@ -324,6 +331,7 @@ function AboutUs() {
         </Grid>
       </Box>
     </Box>
+     </>
   );
 }
 
