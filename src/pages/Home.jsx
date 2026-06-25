@@ -198,7 +198,7 @@ function Home() {
                     sx={{
                       fontFamily: "'Playfair Display', serif",
                       fontSize: { xs: "30px", sm: "48px", md: "56px" },
-                      fontWeight: 400,
+                      fontWeight: 500,
                       color: "#370404",
                     }}
                   >
@@ -229,6 +229,7 @@ function Home() {
                       fontSize: { xs: "30px", sm: "35px", md: "60px" },
                       fontWeight: 400,
                       color: "#370404",
+                      ml:{xs:0,md:2}
                       
                     }}
                   >
